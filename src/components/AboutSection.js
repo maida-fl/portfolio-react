@@ -1,5 +1,5 @@
 import home1 from "../img/home1.png";
-import styled from "styled-components";
+// import styled from "styled-components";
 import { About, Description, Image, Hide } from "../styles";
 
 const AboutSection = () => {
@@ -20,8 +20,8 @@ const AboutSection = () => {
           </Hide>
         </div>
         <p>
-          Contact us for any photography or videography ideas you have. We have
-          professionals with amazing skills to help you achieve it.
+          Contact us for any photography or videography ideas you have. <br />{" "}
+          We have professionals with amazing skills to help you achieve it.
         </p>
         <button>Contact Us</button>
       </Description>

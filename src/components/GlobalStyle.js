@@ -6,6 +6,11 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+    /* html {
+
+            font-size: 85%;
+
+    } */
 
     body{
         background: #1b1b1b;
@@ -36,6 +41,7 @@ const GlobalStyle = createGlobalStyle`
         }
         h4{
             font-weight:bold;
+            font-size: 2rem;
 
         }
         a{

@@ -9,7 +9,7 @@ export const About = styled.div`
 `;
 export const Description = styled.div`
   flex: 1;
-  padding-right: lighter;
+  padding-right: 5rem;
   h2 {
     font-weight: lighter;
   }
