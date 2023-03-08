@@ -6,11 +6,11 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
-    /* html {
+    html {
 
             font-size: 85%;
 
-    } */
+    }
 
     body{
         background: #1b1b1b;
