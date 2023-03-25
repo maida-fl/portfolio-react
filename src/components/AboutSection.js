@@ -35,7 +35,7 @@ const AboutSection = () => {
           alt="professional with camera"
         />
       </Image>
-      <Wave/>
+      <Wave />
     </About>
   );
 };

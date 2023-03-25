@@ -22,14 +22,17 @@ const GlobalStyle = createGlobalStyle`
         font-size: 1.1rem;
         cursor: pointer;
         padding: 1rem 2rem;
-        border: 3px solid #23d997;
+        border: 2px solid #23d997;
         background: transparent;
         color: white;
+        letter-spacing: 0.8px;
         transition: all 0.5s ease;
         font-family: 'Inter', sans-serif;
         &:hover{
             background-color: #23d997;
+            border: 2px solid #23d997;
             color: white;
+
         }
     }
         h2{
