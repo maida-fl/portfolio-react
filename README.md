@@ -6,7 +6,7 @@
 
 ```
 Built entirely with:
-- React, CSS and JavaScript
+- React, CSS, JavaScript, Styled Components, Framer Motion
 ```
 
 [<img align="left" alt="ReactJS" title="ReactJS" width="25px" src="./public/logo192.png" style="padding-right:10px;" />](https://reactjs.org/)
