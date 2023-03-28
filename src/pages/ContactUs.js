@@ -22,7 +22,7 @@ const ContactUs = () => {
         <Hide>
           <Social variants={titleAnim}>
             <Circle />
-            <h2>hello@capture.com</h2>
+            <h2>hello@focus-films.com</h2>
           </Social>
         </Hide>
         <Hide>
