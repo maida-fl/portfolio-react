@@ -71,7 +71,7 @@ const Services = styled(About)`
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
-  @media (max-width: 1300px) {
+  @media (max-width: 1275px) {
     justify-content: center;
     padding: 3rem;
   }
@@ -88,7 +88,7 @@ const Card = styled.div`
       padding: 1rem;
     }
   }
-  @media (max-width: 1300px) {
+  @media (max-width: 1275px) {
     display: flex;
     flex-direction: column;
     align-items: center;
