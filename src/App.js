@@ -7,7 +7,7 @@ import Nav from "./components/Nav";
 import MovieDetail from "./pages/MovieDetail";
 
 //Router
-import { Switch, Route, useLocation } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 //Animation
 import { AnimatePresence } from "framer-motion";
 
@@ -19,20 +19,12 @@ function App() {
       <GlobalStyle />
       <Nav />
       <AnimatePresence mode="wait">
-        <Switch location={location} key={location.pathname}>
-          <Route path="/" exact>
-            <AboutUs />
-          </Route>
-          <Route path="/work" exact>
-            <OurWork />
-          </Route>
-          <Route path="/work/:id">
-            <MovieDetail />
-          </Route>
-          <Route path="/contact">
-            <ContactUs />
-          </Route>
-        </Switch>
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={<AboutUs />} />
+          <Route path="/work" element={<OurWork />} />
+          <Route path="/work/:id" element={<MovieDetail />} />
+          <Route path="/contact" element={<ContactUs />} />
+        </Routes>
       </AnimatePresence>
     </div>
   );

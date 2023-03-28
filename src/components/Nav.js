@@ -10,7 +10,7 @@ const Nav = () => {
     <StyledNav>
       <h1>
         <Link id="logo" to="/">
-          Capture
+          Focus
         </Link>
       </h1>
       <ul>
@@ -63,7 +63,7 @@ const StyledNav = styled.nav`
     list-style: none;
   }
   #logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: "Lobster", cursive;
     font-weight: lighter;
   }
@@ -71,7 +71,7 @@ const StyledNav = styled.nav`
     padding-left: 10rem;
     position: relative;
   }
-  @media (max-width: 1300px) {
+  @media (max-width: 1000px) {
     flex-direction: column;
     padding: 2rem 1rem;
     #logo {
@@ -96,7 +96,7 @@ const Line = styled(motion.div)`
   position: absolute;
   bottom: -80%;
   left: 60%;
-  @media (max-width: 1300px) {
+  @media (max-width: 1000px) {
     left: 0%;
   }
 `;

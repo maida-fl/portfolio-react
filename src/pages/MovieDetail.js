@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import { useHistory } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { MovieState } from "../movieState";
 // Animations
 import { motion } from "framer-motion";
@@ -8,8 +8,8 @@ import { pageAnimation } from "../animation";
 import ScrollTop from "../components/ScrollTop";
 
 const MovieDetail = () => {
-  const history = useHistory();
-  const url = history.location.pathname;
+  const location = useLocation();
+  const url = location.pathname;
   const [movies, setMovies] = useState(MovieState);
   const [movie, setMovie] = useState(null);
 
@@ -62,7 +62,7 @@ const Headline = styled.div`
     top: 10%;
     left: 50%;
     transform: translate(-50%, -10%);
-    @media (max-width: 1300px) {
+    @media (max-width: 1000px) {
       width: 100%;
       text-align: center;
     }
@@ -79,7 +79,7 @@ const Awards = styled.div`
   margin: 5rem 10rem;
   align-items: center;
   justify-content: space-around;
-  @media (max-width: 1500px) {
+  @media (max-width: 1300px) {
     display: block;
     margin: 2rem 2rem;
   }
